@@ -71,7 +71,7 @@ def cloneNode(update, context):
             uname = f'<a href="tg://user?id={update.message.from_user.id}">{update.message.from_user.first_name}</a>'
         if uname is not None:
             cc = f'\n\n<b>Cloned by</b>: {uname}'
-            msc = f'\n\n╔═════ ▓▓ ࿇ ▓▓ ════╗\n               @XeroCloud\n╚═════ ▓▓ ࿇ ▓▓ ════╝'
+            msc = f'\n\n╔═════ ▓▓ ࿇ ▓▓ ════╗\n               @ZethorCloud\n╚═════ ▓▓ ࿇ ▓▓ ════╝'
             men = f'{uname} '
             funame = f'<a href="tg://user?id={update.message.from_user.id}">{update.message.from_user.first_name}</a>'
         fwdpm = f'\n\n<b>Hei {funame}, Your task successfully completed! click button below to see a log channel.</b>'
